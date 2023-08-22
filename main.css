@@ -1,0 +1,20 @@
+body {
+    background-color: #ccc;
+}
+h1 {
+    text-align: center;
+    margin: 25px;
+    padding: 20px;
+}
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+img {
+    height: 257.03px;
+}
+.carousel-inner {
+    margin: 20px auto;
+}
+#carrosel img{
+    height: 100%;
+}
