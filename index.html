@@ -4,13 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootstrap Avançado</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/library/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <style>
+        h1 {
+            text-align: center;
+            margin: 25px;
+            padding: 20px;
+        }
+        .card-img-overlay{
+            background-color: rgba(0, 0, 0, 0.4);
+    }
+        img {
+            height: 257.03px;
+    }
+        .carousel-inner {
+            margin: 20px auto;
+        }
+        #carrosel img{
+            height: 630px;
+        }
+    </style>
 
 </head>
 <body>
-    
+
+<div class="container">
+
+    <h1>bootstrap</h1>
+
+    <div  id="carrosel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3500" class="carousel-item active">
+                <img class="d-block w-100" src="/imagens/chery-mostra-novo-tiggo-8-plus-visual-exclusivo_album.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Foto do novo Tiggo 8</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3500"  class="carousel-item">
+                <img  class="d-block w-100" src="/imagens/novo-chevrolet-monza-2020-china-1.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Foto do novo Monza</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carrosel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carrosel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button data-bs-target="#carrosel" class="active" data-bs-slide-to="0"></button>
+            <button data-bs-target="#carrosel" data-bs-slide-to="1"></button>
+        </div>
+
+    </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <div class="row">
+        <div class="col-4">
+            <div class="card text-bg-dark">
+                <img src="/imagens/beach-front-1624622.jpg" alt="imagem de casa na praia ">
+                <div class="card-img-overlay">
+                    <h4 class="card-title">Titulo do card<h4>
+                    <h5 class="card-subtitle"> Subtitulo do card </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sapiente soluta ad adipisci suscipit ea cum placeat repellat quia dolorem facilis, quasi vero ipsum obcaecati illo, vel distinctio. Optio, dolores!
+                    </p>
+                    <a href="#" class="btn btn-primary">Veja mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card text-bg-dark">
+                <img src="/imagens/house-1876063.jpg" alt="imagem de projeto de prédio ">
+                <div class="card-img-overlay">
+                    <h4 class="card-title">Titulo do card<h4>
+                    <h5 class="card-subtitle"> Subtitulo do card</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sapiente soluta ad adipisci suscipit ea cum placeat repellat quia dolorem facilis, quasi vero ipsum obcaecati illo, vel distinctio. Optio, dolores!
+                    </p>
+                    <a href="#" class="btn btn-primary">Veja mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card text-bg-dark">
+                <img src="/imagens/new-home-1540889.jpg" alt="Imagem de casa com jardim">
+                <div class="card-img-overlay">
+                    <h4 class="card-title">Titulo do card<h4>
+                    <h5 class="card-subtitle"> Subtitulo do card </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sapiente soluta ad adipisci suscipit ea cum placeat repellat quia dolorem facilis, quasi vero ipsum obcaecati illo, vel distinctio. Optio, dolores!
+                    </p>
+                    <a href="#" class="btn btn-primary">Veja mais
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="/library/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
 </body>
 </html>
